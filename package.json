@@ -1,0 +1,23 @@
+{
+  "name": "com.nebulateme.windows",
+  "version": "1.0.0",
+  "displayName": "WindowsSystem",
+  "description": "Windows system for Unity",
+  "unity": "2020.3",
+  "unityRelease": "42f1",
+  "documentationUrl": "https://github.com/Nebulate-me/WindowsSystem",
+  "changelogUrl": "https://github.com/Nebulate-me/WindowsSystem",
+  "licensesUrl": "https://github.com/Nebulate-me/WindowsSystem/blob/main/LICENSE",
+  "dependencies": {
+    "https://github.com/Nebulate-me/DI-Tools.git"
+ },
+ "keywords": [
+    "windows",
+    "mvc"
+  ],
+  "author": {
+    "name": "Nebulate.me",
+    "email": "admin@nebulate.me",
+    "url": "https://nebulate.me"
+  }
+}
