@@ -9,6 +9,7 @@
   "changelogUrl": "https://github.com/Nebulate-me/WindowsSystem",
   "licensesUrl": "https://github.com/Nebulate-me/WindowsSystem/blob/main/LICENSE",
   "dependencies": {
+    "com.nebulateme.di_tools": "1.0.0"
  },
  "keywords": [
     "windows",

@@ -1,8 +1,4 @@
 {
-    "name": "com.nebulateme.windows",
-    "version": "1.0.0",
-    "displayName": "WindowsSystem",
-    "description": "Windows system for Unity",
     "dependencies": {
         "com.nebulateme.di_tools": "https://github.com/Nebulate-me/DI-Tools.git"
     }
