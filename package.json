@@ -9,7 +9,8 @@
   "changelogUrl": "https://github.com/Nebulate-me/WindowsSystem",
   "licensesUrl": "https://github.com/Nebulate-me/WindowsSystem/blob/main/LICENSE",
   "git-dependencies": [
-    "https://github.com/Nebulate-me/DI-Tools.git"
+    "https://github.com/Nebulate-me/DI-Tools.git",
+    "https://github.com/Nebulate-me/SignalsHub.git"
   ],
   "dependencies": {
  },
