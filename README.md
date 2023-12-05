@@ -7,4 +7,4 @@ MVC Framework for Unity
 
 ### How to install
 
-In Package Manager click `+` -> `Add package from git URL...` and paste `https://github.com/Nebulate-me/WindowsSystem.git`
+In Package Manager click `+` -> `Add package from git URL...` and paste `https://github.com/Nebulate-me/MVCFramework.git`
