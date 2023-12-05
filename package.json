@@ -8,6 +8,9 @@
   "documentationUrl": "https://github.com/Nebulate-me/WindowsSystem",
   "changelogUrl": "https://github.com/Nebulate-me/WindowsSystem",
   "licensesUrl": "https://github.com/Nebulate-me/WindowsSystem/blob/main/LICENSE",
+  "git-dependencies": [
+    "https://github.com/Nebulate-me/DI-Tools.git"
+  ],
   "dependencies": {
     "com.nebulateme.di_tools": "1.0.0"
  },
