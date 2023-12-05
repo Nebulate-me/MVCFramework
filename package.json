@@ -5,9 +5,9 @@
   "description": "MVC Framework for Unity",
   "unity": "2020.3",
   "unityRelease": "42f1",
-  "documentationUrl": "https://github.com/Nebulate-me/WindowsSystem",
-  "changelogUrl": "https://github.com/Nebulate-me/WindowsSystem",
-  "licensesUrl": "https://github.com/Nebulate-me/WindowsSystem/blob/main/LICENSE",
+  "documentationUrl": "https://github.com/Nebulate-me/MVCFramework",
+  "changelogUrl": "https://github.com/Nebulate-me/MVCFramework",
+  "licensesUrl": "https://github.com/Nebulate-me/MVCFramework/blob/main/LICENSE",
   "git-dependencies": [
     "https://github.com/Nebulate-me/DI-Tools.git",
     "https://github.com/Nebulate-me/SignalsHub.git"
