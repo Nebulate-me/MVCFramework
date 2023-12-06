@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WindowsSystem.Controls
+namespace MVCFramework.Controls
 {
     public abstract class CompositeControl<TView, TViewModel, TModel> : ControlBase<TView, TViewModel, TModel>
         where TView : IControlView<TViewModel>

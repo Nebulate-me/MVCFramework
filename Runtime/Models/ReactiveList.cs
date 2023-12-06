@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace WindowsSystem.Models
+namespace MVCFramework.Models
 {
     public class ReactiveList<T> : IEnumerable<T>
     {

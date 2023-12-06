@@ -1,7 +1,9 @@
-﻿namespace WindowsSystem.ScreensController
+﻿using MVCFramework.View;
+
+namespace MVCFramework.ScreensController
 {
     public interface IScreensRegister
     {
-        IScreenView GetView(ScreenType screenType);
+        IScreenView GetView(string screenType);
     }
 }

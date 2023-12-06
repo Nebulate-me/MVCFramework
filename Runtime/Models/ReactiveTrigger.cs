@@ -1,6 +1,6 @@
 ﻿using UnityEngine.Events;
 
-namespace WindowsSystem.Models
+namespace MVCFramework.Models
 {
     public class ReactiveTrigger : UnityEvent
     {

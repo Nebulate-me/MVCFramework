@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.Events;
 
-namespace WindowsSystem.Events
+namespace MVCFramework.Events
 {
     public class EventsSubscriber: IEventsSubscriber
     {

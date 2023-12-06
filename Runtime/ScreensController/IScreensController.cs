@@ -1,7 +1,9 @@
-﻿namespace WindowsSystem.ScreensController
+﻿using MVCFramework.Controller;
+
+namespace MVCFramework.ScreensController
 {
     public interface IScreensController
     {
-        void Open(ScreenType screenType, IScreenParams openParams = null);
+        void Open(string screenType, IScreenParams openParams = null);
     }
 }

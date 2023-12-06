@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace WindowsSystem.Controls
+namespace MVCFramework.Controls
 {
     public abstract class ControlView<TModel> : MonoBehaviour, IControlView<TModel>
     {

@@ -1,4 +1,4 @@
-﻿namespace WindowsSystem.Controls
+﻿namespace MVCFramework.Controls
 {
     public interface IControlProps
     {

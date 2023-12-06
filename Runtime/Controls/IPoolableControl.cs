@@ -1,6 +1,6 @@
 ﻿using Zenject;
 
-namespace WindowsSystem.Controls
+namespace MVCFramework.Controls
 {
     public interface IPoolableControl : IControl, IPoolable
     {

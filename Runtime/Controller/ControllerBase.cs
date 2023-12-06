@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using DITools;
+using MVCFramework.Controls;
+using MVCFramework.Events;
+using MVCFramework.Models;
+using MVCFramework.View;
 using UnityEngine.Events;
-using WindowsSystem.Controls;
-using WindowsSystem.Events;
-using WindowsSystem.Models;
-using WindowsSystem.ScreensController;
 using Zenject;
 
-namespace WindowsSystem
+namespace MVCFramework.Controller
 {
     public abstract class ControllerBase<TView, TStore> : IController, IContainerConstructable where TView : IScreenView where TStore : IViewStore
     {
@@ -28,9 +28,7 @@ namespace WindowsSystem
             ViewStore = viewStore;
         }
 
-        // protected UIEntity OpenParamsEntity { get; private set; }
-
-        public abstract ScreenType Type { get; }
+        public abstract string Type { get; }
 
         public ControllerState State { get; private set; } = ControllerState.NotInitialized;
 
@@ -58,6 +56,7 @@ namespace WindowsSystem
             if (State == ControllerState.Inactive)
             {
                 OnActivate();
+                OnBindControls();
                 ActivateControls();
                 OnControlsActivated();
             }
@@ -180,6 +179,10 @@ namespace WindowsSystem
         protected virtual void OnActivate()
         {
             SubscribeEvents();
+        }
+
+        protected virtual void OnBindControls()
+        {
         }
 
         protected virtual void OnDeactivate()

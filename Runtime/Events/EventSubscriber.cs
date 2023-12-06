@@ -1,7 +1,7 @@
 ﻿using UnityEngine.Events;
 using Zenject;
 
-namespace WindowsSystem.Events
+namespace MVCFramework.Events
 {
     public class EventSubscriber<T1, T2> : IEventSubscriber
     {

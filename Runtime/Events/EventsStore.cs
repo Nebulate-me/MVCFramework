@@ -4,7 +4,7 @@ using DITools;
 using UnityEngine.Events;
 using Zenject;
 
-namespace WindowsSystem.Events
+namespace MVCFramework.Events
 {
     public class EventsStore : IEventsStore, IContainerConstructable
     {

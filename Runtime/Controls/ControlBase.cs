@@ -1,8 +1,8 @@
 ﻿using System;
+using MVCFramework.Events;
 using UnityEngine.Events;
-using WindowsSystem.Events;
 
-namespace WindowsSystem.Controls
+namespace MVCFramework.Controls
 {
     public abstract class ControlBase<TView, TViewModel, TModel> : IControl<TView, TModel>
         where TView : IControlView<TViewModel>

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace WindowsSystem.Controls
+namespace MVCFramework.Controls
 {
     public interface IControlView<in TModel>: IControlView
     {

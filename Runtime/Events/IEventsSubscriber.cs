@@ -2,7 +2,7 @@
 using UnityEngine.Events;
 using Zenject;
 
-namespace WindowsSystem.Events
+namespace MVCFramework.Events
 {
     public interface IEventsSubscriber: IPoolable
     {

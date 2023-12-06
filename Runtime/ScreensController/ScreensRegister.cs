@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using MVCFramework.View;
 using UnityEngine;
 
-namespace WindowsSystem.ScreensController
+namespace MVCFramework.ScreensController
 {
     [Serializable]
     public class ScreenTypeToView
     {
-        public ScreenType Type;
+        public string Type;
         public GameObject View;
     }
 
@@ -16,7 +17,7 @@ namespace WindowsSystem.ScreensController
     {
         [SerializeField] private List<ScreenTypeToView> views;
 
-        private Dictionary<ScreenType, IScreenView> screenTypesToViews;
+        private Dictionary<string, IScreenView> screenTypesToViews;
 
         private void Awake()
         {
@@ -26,7 +27,7 @@ namespace WindowsSystem.ScreensController
             );
         }
 
-        public IScreenView GetView(ScreenType screenType)
+        public IScreenView GetView(string screenType)
         {
             return screenTypesToViews[screenType];
         }

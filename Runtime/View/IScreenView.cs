@@ -1,4 +1,4 @@
-﻿namespace WindowsSystem
+﻿namespace MVCFramework.View
 {
     public interface IScreenView : IView
     {

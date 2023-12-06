@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace WindowsSystem
+namespace MVCFramework.View
 {
     public class ScreenView : View, IScreenView
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DITools;
 using Zenject;
 
-namespace WindowsSystem.Controls
+namespace MVCFramework.Controls
 {
     public class ControlFactory : IControlFactory, IContainerConstructable
     {

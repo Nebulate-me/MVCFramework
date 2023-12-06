@@ -1,4 +1,6 @@
-﻿namespace WindowsSystem.Models
+﻿using MVCFramework.Controller;
+
+namespace MVCFramework.Models
 {
     public interface IViewStore
     {

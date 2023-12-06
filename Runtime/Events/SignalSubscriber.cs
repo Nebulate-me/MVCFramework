@@ -2,7 +2,7 @@
 using Signals;
 using Zenject;
 
-namespace WindowsSystem.Events
+namespace MVCFramework.Events
 {
     public class SignalSubscriber<T> : IEventSubscriber
     {

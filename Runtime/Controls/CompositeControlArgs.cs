@@ -1,6 +1,6 @@
-﻿using WindowsSystem.Events;
+﻿using MVCFramework.Events;
 
-namespace WindowsSystem.Controls
+namespace MVCFramework.Controls
 {
     public class CompositeControlArgs : ControlBaseArgs
     {

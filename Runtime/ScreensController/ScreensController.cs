@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using DITools;
+using MVCFramework.Controller;
 
-namespace WindowsSystem.ScreensController
+namespace MVCFramework.ScreensController
 {
     public class ScreensController : IScreensController, IContainerConstructable
     {
-        private readonly Dictionary<ScreenType, IController> controllers;
+        private readonly Dictionary<string, IController> controllers;
         private readonly IScreensRegister screensRegister;
 
         public ScreensController(List<IController> controllers, IScreensRegister screensRegister)
@@ -15,7 +16,7 @@ namespace WindowsSystem.ScreensController
             this.screensRegister = screensRegister;
         }
 
-        public void Close(ScreenType screenType)
+        public void Close(string screenType)
         {
             var controller = controllers[screenType];
             var view = screensRegister.GetView(screenType);
@@ -24,7 +25,7 @@ namespace WindowsSystem.ScreensController
             view.Hide(); // Do we need that?
         }
 
-        public void Open(ScreenType screenType, IScreenParams openParams = null)
+        public void Open(string screenType, IScreenParams openParams = null)
         {
             var controller = controllers[screenType];
             var view = screensRegister.GetView(screenType);

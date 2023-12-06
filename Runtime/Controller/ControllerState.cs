@@ -1,4 +1,4 @@
-﻿namespace WindowsSystem
+﻿namespace MVCFramework.Controller
 {
     public enum ControllerState
     {

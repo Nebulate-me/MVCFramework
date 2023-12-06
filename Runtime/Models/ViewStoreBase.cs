@@ -1,4 +1,6 @@
-﻿namespace WindowsSystem.Models
+﻿using MVCFramework.Controller;
+
+namespace MVCFramework.Models
 {
     public abstract class ViewStoreBase<TModel> : IViewStore<TModel>
     {

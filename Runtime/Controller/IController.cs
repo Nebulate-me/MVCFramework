@@ -1,10 +1,10 @@
-﻿using WindowsSystem.ScreensController;
+﻿using MVCFramework.View;
 
-namespace WindowsSystem
+namespace MVCFramework.Controller
 {
     public interface IController
     {
-        ScreenType Type { get; }
+        string Type { get; }
         ControllerState State { get; }
         void AddView(IScreenView view);
         void AddOpenParams(IScreenParams openParams);

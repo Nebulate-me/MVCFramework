@@ -1,8 +1,8 @@
 ﻿using DITools;
-using WindowsSystem.Controls;
-using WindowsSystem.Events;
+using MVCFramework.Controls;
+using MVCFramework.Events;
 
-namespace WindowsSystem
+namespace MVCFramework.Controller
 {
     public class ControllerBaseArgs: IContainerConstructable
     {

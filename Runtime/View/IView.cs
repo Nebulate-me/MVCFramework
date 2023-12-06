@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace WindowsSystem
+namespace MVCFramework.View
 {
     public interface IView
     {

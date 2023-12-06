@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine.Events;
 
-namespace WindowsSystem.Events
+namespace MVCFramework.Events
 {
     public interface IEventsStore
     {

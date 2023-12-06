@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Zenject;
 
-namespace WindowsSystem.Models
+namespace MVCFramework.Models
 {
     [NoReflectionBaking]
     public class ReactiveProperty<T>

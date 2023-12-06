@@ -1,4 +1,4 @@
-﻿namespace WindowsSystem.Events
+﻿namespace MVCFramework.Events
 {
     public interface IEventSubscriber
     {
