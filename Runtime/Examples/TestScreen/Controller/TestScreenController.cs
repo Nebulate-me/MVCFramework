@@ -37,7 +37,7 @@ namespace WindowsSystem.Runtime.Examples.TestScreen.Controller
 
             SubscribeEvent(this, model.TestInputModel.Text.OnChanged, ViewStore.OnInputChanged);
             SubscribeEvent(this, View.ButtonView.OnClick, ViewStore.ClearInput);
-            
+
             base.SubscribeEvents();
         }
     }
